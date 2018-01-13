@@ -661,6 +661,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #call-to-action .cta-text {
   color: #fff;
+  text-align: center;
+}
+.domain{
+  font-size: 20px;
 }
 
 @media (min-width: 769px) {
@@ -681,7 +685,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 8px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  margin: 10px;
   border: 2px solid #fff;
   color: #fff;
 }
