@@ -506,9 +506,13 @@ cursor: initial;
      width: 50px;
      margin:auto;
      align-items: center;
-     margin-left: 40%;
+     margin-left: 35%;
      cursor: initial;
 }
+@media screen and (max-width: 600px){
+  .img1{
+    margin-left: 45%;
+  }
 }
  .mytitle{
      text-align: center;
