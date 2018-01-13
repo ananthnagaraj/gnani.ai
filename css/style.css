@@ -588,10 +588,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
   border: 6px solid #fff;
 }
+.img{
+  position: relative;
+  height: 10%;
+  width: 30px;
+}
 
 #services .icon a {
   display: inline-block;
-  background: #2dc997;
+  background: white;
   border: 2px solid #2dc997;
   padding: 16px;
   border-radius: 50%;
