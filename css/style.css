@@ -511,7 +511,7 @@ cursor: initial;
 }
 @media screen and (max-width: 600px){
   .img1{
-    margin-left: 45%;
+    margin-left: 42%;
   }
 }
  .mytitle{
@@ -553,6 +553,7 @@ cursor: initial;
  #services .description {
      font-size: 14px;
      line-height: 24px;
+     text-align: justify;
 }
 /* Call To Action Section --------------------------------*/
  #call-to-action {
@@ -718,6 +719,18 @@ cursor: initial;
  #contact {
      background: #f7f7f7;
      padding: 80px 0 40px 0;
+}
+@media screen and (max-width: 600px)
+{
+     .contactpc{
+          display: none;
+     }
+}
+@media screen and (min-width: 601px)
+{
+     .contactmob{
+          display: none;
+     }
 }
  #contact #google-map {
      height: 300px;
